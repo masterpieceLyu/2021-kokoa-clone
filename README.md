@@ -1,3 +1,3 @@
 # learning Kokoa clone 2021
 
-CSS got so much better design!
+HTML and CSS are so much beutiful!
