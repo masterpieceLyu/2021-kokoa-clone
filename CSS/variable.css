@@ -1,5 +1,5 @@
 :root {
-  --kokoa: rgb(83, 44, 14);
-  --horizontal-space: 40px 15px 15px 15px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --yellow: rgb(250, 211, 0);
+  --horizontal-space: 35px 20px 20px 20px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
 }

@@ -29,17 +29,18 @@
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span><span class="nav__newellipsis-header"></span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
     </div>
 </header>
 
 <main class="main-screen">
+  <a href="chat.html">
     <div class="user__component">
         <div class="user-component__column">
-        <img class="user-component__avatar user-component__avatar" src="img/logo.png" />
+        <img class="user-component__avatar user-component__avatar" src="img/nicolas.jpeg" />
         <div class="user-component__text">
-            <h4 class="user-component__title">Masterpiece_Lyu</h4>
-          <h6 class="user-component__subtitle">나를 죽이지 못하는 고통을 날 더 강하게 만든다</h6>
+            <h4 class="user-component__title">Nicolas</h4>
+          <h6 class="user-component__subtitle">Whatever does not destroy me makes me</h6>
         </div>
         </div>
         <div class="user-component__column">
@@ -47,7 +48,7 @@
             <div class="badge">1</div>
         </div>
     </div>
-
+  </a>
 </main>
 
 
@@ -61,19 +62,23 @@
           <a class="nav__link" href="friends.html"
             ><i class="far fa-user fa-2x"></i></a>
         </li>
-        <li class="nav__btn"></li>
+        <li class="nav__btn">
           <a class="nav__link" href="chats.html">
               <span class="nav__notification badge">1</span><i class="fas fa-comment fa-2x"></i></i></a>
         </li>
-        <li class="nav__btn"></li>
+        <li class="nav__btn">
           <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
         </li>
-        <li class="nav__btn"></li>
+        <li class="nav__btn">
           <a class="nav__link" href="more.html">
               <span class="nav__newellipsis"></span><i class="fas fa-ellipsis-h fa-2x"></i></a>
         </li>
       </ul>
     </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big!</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/82fa1218b4.js"
