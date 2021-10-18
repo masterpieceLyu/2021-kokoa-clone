@@ -33,3 +33,7 @@ body {
 .main-screen {
   padding: var(--horizontal-space);
 }
+
+#login-formBtn {
+  color: black;
+}
